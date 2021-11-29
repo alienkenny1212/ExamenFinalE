@@ -15,4 +15,4 @@ def curso_nuevo(request):
             messages.add_message(request, messages.SUCCESS, 'Curso creado exitosamente')
     else:
         formulario = CursoForm()
-    return render(request, 'curso/curso_editar.html', {'formulario': formulario})
+    return render(request, 'colegio/curso_editar.html', {'formulario': formulario})
